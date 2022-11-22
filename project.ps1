@@ -14,4 +14,5 @@ if (Test-Connection 1.1.1.1) {
 else {
     # Failure
     Write-Warning -Message "It failed!"
+    Write-Output "Have you thought about a career change? Maybe something in the food service industry?"
 }
