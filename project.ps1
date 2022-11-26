@@ -1,4 +1,4 @@
-$products = Get-CimInstance -ClassName Win32_Product
+$products = Get-CimInstance -ClassName Win32_Product -ErrorAction SilentlyContinue
 $products.Name
 $products.Version
 
