@@ -1,3 +1,4 @@
+
 <#
 $products = Get-CimInstance -ClassName Win32_Product -ErrorAction SilentlyContinue
 $products.Name
@@ -21,3 +22,8 @@ else {
 
 $n = $null
 $n ?? (Write-Warning -Message "`$n is NULL")
+
+
+$ht = @{}
+$ht = @{Name = "Jeff"; Count = 3; "Sample Entry" = "This is a thing you can do" }
+$ht
