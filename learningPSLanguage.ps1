@@ -9,3 +9,5 @@ $sb2 = {
 
 #& $sb2 system 2 | Format-List ProviderName,ID,LevelDisplayName,Message
 Invoke-Command -ScriptBlock $sb2 -ArgumentList System, 2 | Format-List ProviderName, ID, LevelDisplayName, Message 
+
+# Objects
