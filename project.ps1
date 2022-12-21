@@ -21,3 +21,8 @@ else {
 
 $n = $null
 $n ?? (Write-Warning -Message "`$n is NULL")
+
+
+$ht = @{}
+$ht = @{Name = "Jeff"; Count = 3; "Sample Entry" = "This is a thing you can do"}
+$ht 
