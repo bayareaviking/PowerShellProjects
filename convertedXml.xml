@@ -1,0 +1,822 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Objects>
+  <Object Type="System.Diagnostics.Process">
+    <Property Name="Name" Type="System.String">AcrobatNotificationClient</Property>
+    <Property Name="SI" Type="System.Int32">2</Property>
+    <Property Name="Handles" Type="System.Int32">483</Property>
+    <Property Name="VM" Type="System.Int64">305045504</Property>
+    <Property Name="WS" Type="System.Int64">6414336</Property>
+    <Property Name="PM" Type="System.Int64">23543808</Property>
+    <Property Name="NPM" Type="System.Int64">28576</Property>
+    <Property Name="Path" Type="System.String">C:\Program Files\WindowsApps\AcrobatNotificationClient_1.0.4.0_x86__e1rzdqpraam7r\AcrobatNotificationClient.exe</Property>
+    <Property Name="CommandLine" Type="System.String">"C:\Program Files\WindowsApps\AcrobatNotificationClient_1.0.4.0_x86__e1rzdqpraam7r\AcrobatNotificationClient.exe" -ServerName:App.AppXj7d2pwbjt1by8j1s5wak729xa46cf4br.mca</Property>
+    <Property Name="Parent" Type="System.Object" />
+    <Property Name="Company" Type="System.Object" />
+    <Property Name="CPU" Type="System.Double">0.015625</Property>
+    <Property Name="FileVersion" Type="System.Object" />
+    <Property Name="ProductVersion" Type="System.Object" />
+    <Property Name="Description" Type="System.Object" />
+    <Property Name="Product" Type="System.Object" />
+    <Property Name="__NounName" Type="System.String">Process</Property>
+    <Property Name="SafeHandle" Type="Microsoft.Win32.SafeHandles.SafeProcessHandle">Microsoft.Win32.SafeHandles.SafeProcessHandle</Property>
+    <Property Name="Handle" Type="System.IntPtr">2300</Property>
+    <Property Name="BasePriority" Type="System.Int32">8</Property>
+    <Property Name="ExitCode" Type="System.Int32" />
+    <Property Name="HasExited" Type="System.Boolean">False</Property>
+    <Property Name="StartTime" Type="System.DateTime">3/16/2023 2:41:16 PM</Property>
+    <Property Name="ExitTime" Type="System.DateTime" />
+    <Property Name="Id" Type="System.Int32">24712</Property>
+    <Property Name="MachineName" Type="System.String">.</Property>
+    <Property Name="MaxWorkingSet" Type="System.IntPtr">1413120</Property>
+    <Property Name="MinWorkingSet" Type="System.IntPtr">204800</Property>
+    <Property Name="Modules" Type="System.Diagnostics.ProcessModuleCollection">
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (AcrobatNotificationClient.exe)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (ntdll.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (KERNEL32.DLL)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (KERNELBASE.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (combase.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (ucrtbase.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (RPCRT4.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (MSVCP140_APP.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (vccorlib140_app.DLL)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (VCRUNTIME140_APP.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (OLEAUT32.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (msvcp_win.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (kernel.appcore.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (msvcrt.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (bcryptPrimitives.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (Windows.UI.Xaml.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (powrprof.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (UMPDC.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (iertutil.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (advapi32.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (sechost.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (twinapi.appcore.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (WinTypes.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (shcore.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (windows.staterepositorycore.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (user32.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (win32u.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (GDI32.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (gdi32full.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (IMM32.DLL)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (OneCoreUAPCommonProxyStub.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (Windows.UI.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (CoreMessaging.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (uxtheme.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (urlmon.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (srvcli.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (netutils.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (dxgi.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (MrmCoreR.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (windows.staterepositoryclient.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (dxcore.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (profapi.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (directxdatabasehelper.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (d3d11.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (bcp47mrm.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (nvldumd.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (VERSION.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (msasn1.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (cryptnet.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (CRYPT32.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (drvstore.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (devobj.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (cfgmgr32.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (wldp.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (cryptbase.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (WINTRUST.DLL)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (imagehlp.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (dwrite.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (Windows.Globalization.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (Bcp47Langs.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (msctf.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (biwinrt.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (CRYPTSP.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (rsaenh.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (wpnapps.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (bcrypt.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (nvwgf2um.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (ole32.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (SHELL32.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (WINMM.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (windows.storage.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (shlwapi.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (d2d1.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (TextShaping.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (Windows.Storage.ApplicationData.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (Windows.ApplicationModel.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (daxexec.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (USERENV.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (container.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (rmclient.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (AppContracts.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (Windows.Shell.ServiceHostBuilder.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (ntdll.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (wow64.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (wow64base.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (wow64win.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (wow64con.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (wow64cpu.dll)</Property>
+    </Property>
+    <Property Name="NonpagedSystemMemorySize64" Type="System.Int64">28576</Property>
+    <Property Name="NonpagedSystemMemorySize" Type="System.Int32">28576</Property>
+    <Property Name="PagedMemorySize64" Type="System.Int64">23543808</Property>
+    <Property Name="PagedMemorySize" Type="System.Int32">23543808</Property>
+    <Property Name="PagedSystemMemorySize64" Type="System.Int64">428432</Property>
+    <Property Name="PagedSystemMemorySize" Type="System.Int32">428432</Property>
+    <Property Name="PeakPagedMemorySize64" Type="System.Int64">23814144</Property>
+    <Property Name="PeakPagedMemorySize" Type="System.Int32">23814144</Property>
+    <Property Name="PeakWorkingSet64" Type="System.Int64">37642240</Property>
+    <Property Name="PeakWorkingSet" Type="System.Int32">37642240</Property>
+    <Property Name="PeakVirtualMemorySize64" Type="System.Int64">308088832</Property>
+    <Property Name="PeakVirtualMemorySize" Type="System.Int32">308088832</Property>
+    <Property Name="PriorityBoostEnabled" Type="System.Boolean">True</Property>
+    <Property Name="PriorityClass" Type="System.Diagnostics.ProcessPriorityClass">Normal</Property>
+    <Property Name="PrivateMemorySize64" Type="System.Int64">23543808</Property>
+    <Property Name="PrivateMemorySize" Type="System.Int32">23543808</Property>
+    <Property Name="ProcessorAffinity" Type="System.IntPtr">16777215</Property>
+    <Property Name="SessionId" Type="System.Int32">2</Property>
+    <Property Name="StartInfo" Type="System.Diagnostics.ProcessStartInfo" />
+    <Property Name="Threads" Type="System.Diagnostics.ProcessThreadCollection">
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+    </Property>
+    <Property Name="HandleCount" Type="System.Int32">483</Property>
+    <Property Name="VirtualMemorySize64" Type="System.Int64">305045504</Property>
+    <Property Name="VirtualMemorySize" Type="System.Int32">305045504</Property>
+    <Property Name="EnableRaisingEvents" Type="System.Boolean">False</Property>
+    <Property Name="StandardInput" Type="System.IO.StreamWriter" />
+    <Property Name="StandardOutput" Type="System.IO.StreamReader" />
+    <Property Name="StandardError" Type="System.IO.StreamReader" />
+    <Property Name="WorkingSet64" Type="System.Int64">6414336</Property>
+    <Property Name="WorkingSet" Type="System.Int32">6414336</Property>
+    <Property Name="SynchronizingObject" Type="System.ComponentModel.ISynchronizeInvoke" />
+    <Property Name="MainModule" Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (AcrobatNotificationClient.exe)</Property>
+    <Property Name="PrivilegedProcessorTime" Type="System.TimeSpan">00:00:00.0156250</Property>
+    <Property Name="TotalProcessorTime" Type="System.TimeSpan">00:00:00.0156250</Property>
+    <Property Name="UserProcessorTime" Type="System.TimeSpan">00:00:00</Property>
+    <Property Name="ProcessName" Type="System.String">AcrobatNotificationClient</Property>
+    <Property Name="MainWindowHandle" Type="System.IntPtr">0</Property>
+    <Property Name="MainWindowTitle" Type="System.String">
+    </Property>
+    <Property Name="Responding" Type="System.Boolean">True</Property>
+    <Property Name="Site" Type="System.ComponentModel.ISite" />
+    <Property Name="Container" Type="System.ComponentModel.IContainer" />
+  </Object>
+  <Object Type="System.Diagnostics.Process">
+    <Property Name="Name" Type="System.String">acrotray</Property>
+    <Property Name="SI" Type="System.Int32">2</Property>
+    <Property Name="Handles" Type="System.Int32">300</Property>
+    <Property Name="VM" Type="System.Int64">2203471589376</Property>
+    <Property Name="WS" Type="System.Int64">19763200</Property>
+    <Property Name="PM" Type="System.Int64">4128768</Property>
+    <Property Name="NPM" Type="System.Int64">17704</Property>
+    <Property Name="Path" Type="System.String">C:\Program Files\Adobe\Acrobat DC\Acrobat\AcroTray.exe</Property>
+    <Property Name="CommandLine" Type="System.String">"C:\Program Files\Adobe\Acrobat DC\Acrobat\AcroTray.exe" </Property>
+    <Property Name="Parent" Type="System.Object" />
+    <Property Name="Company" Type="System.String">Adobe Systems Inc.</Property>
+    <Property Name="CPU" Type="System.Double">0.015625</Property>
+    <Property Name="FileVersion" Type="System.String">22.3.20322.0</Property>
+    <Property Name="ProductVersion" Type="System.String">22.3.20322.0</Property>
+    <Property Name="Description" Type="System.String">AcroTray</Property>
+    <Property Name="Product" Type="System.String">AcroTray - Adobe Acrobat Distiller helper application.</Property>
+    <Property Name="__NounName" Type="System.String">Process</Property>
+    <Property Name="SafeHandle" Type="Microsoft.Win32.SafeHandles.SafeProcessHandle">Microsoft.Win32.SafeHandles.SafeProcessHandle</Property>
+    <Property Name="Handle" Type="System.IntPtr">4388</Property>
+    <Property Name="BasePriority" Type="System.Int32">8</Property>
+    <Property Name="ExitCode" Type="System.Int32" />
+    <Property Name="HasExited" Type="System.Boolean">False</Property>
+    <Property Name="StartTime" Type="System.DateTime">3/16/2023 3:12:39 PM</Property>
+    <Property Name="ExitTime" Type="System.DateTime" />
+    <Property Name="Id" Type="System.Int32">11876</Property>
+    <Property Name="MachineName" Type="System.String">.</Property>
+    <Property Name="MaxWorkingSet" Type="System.IntPtr">1413120</Property>
+    <Property Name="MinWorkingSet" Type="System.IntPtr">204800</Property>
+    <Property Name="Modules" Type="System.Diagnostics.ProcessModuleCollection">
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (AcroTray.exe)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (ntdll.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (KERNEL32.DLL)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (KERNELBASE.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (apphelp.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (USER32.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (win32u.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (GDI32.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (VERSION.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (gdi32full.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (WINHTTP.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (WININET.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (msvcrt.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (msvcp_win.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (ucrtbase.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (advapi32.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (sechost.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (SHELL32.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (RPCRT4.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (ole32.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (combase.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (WINSPOOL.DRV)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (OLEAUT32.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (SHLWAPI.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (UxTheme.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (MSIMG32.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (CRYPT32.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (bcrypt.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (WS2_32.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (IMM32.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (Secur32.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (IPHLPAPI.DLL)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (gdiplus.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (OLEACC.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (WINMM.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (SSPICLI.DLL)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (Comctl32.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (kernel.appcore.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (bcryptPrimitives.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (windows.storage.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (wintypes.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (SHCORE.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (profapi.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (CRYPTBASE.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (clbcatq.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (amsi.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (USERENV.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (MpOav.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (DPAPI.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (MSASN1.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (Comctl32.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (MSCTF.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (mswsock.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (WINNSI.DLL)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (NSI.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (dhcpcsvc6.DLL)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (dhcpcsvc.DLL)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (webio.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (DNSAPI.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (rasadhlp.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (schannel.DLL)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (ncrypt.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (NTASN1.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (ncryptsslp.dll)</Property>
+    </Property>
+    <Property Name="NonpagedSystemMemorySize64" Type="System.Int64">17704</Property>
+    <Property Name="NonpagedSystemMemorySize" Type="System.Int32">17704</Property>
+    <Property Name="PagedMemorySize64" Type="System.Int64">4128768</Property>
+    <Property Name="PagedMemorySize" Type="System.Int32">4128768</Property>
+    <Property Name="PagedSystemMemorySize64" Type="System.Int64">226152</Property>
+    <Property Name="PagedSystemMemorySize" Type="System.Int32">226152</Property>
+    <Property Name="PeakPagedMemorySize64" Type="System.Int64">4452352</Property>
+    <Property Name="PeakPagedMemorySize" Type="System.Int32">4452352</Property>
+    <Property Name="PeakWorkingSet64" Type="System.Int64">20164608</Property>
+    <Property Name="PeakWorkingSet" Type="System.Int32">20164608</Property>
+    <Property Name="PeakVirtualMemorySize64" Type="System.Int64">2203517427712</Property>
+    <Property Name="PeakVirtualMemorySize" Type="System.Int32">199204864</Property>
+    <Property Name="PriorityBoostEnabled" Type="System.Boolean">True</Property>
+    <Property Name="PriorityClass" Type="System.Diagnostics.ProcessPriorityClass">Normal</Property>
+    <Property Name="PrivateMemorySize64" Type="System.Int64">4128768</Property>
+    <Property Name="PrivateMemorySize" Type="System.Int32">4128768</Property>
+    <Property Name="ProcessorAffinity" Type="System.IntPtr">16777215</Property>
+    <Property Name="SessionId" Type="System.Int32">2</Property>
+    <Property Name="StartInfo" Type="System.Diagnostics.ProcessStartInfo" />
+    <Property Name="Threads" Type="System.Diagnostics.ProcessThreadCollection">
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+    </Property>
+    <Property Name="HandleCount" Type="System.Int32">300</Property>
+    <Property Name="VirtualMemorySize64" Type="System.Int64">2203471589376</Property>
+    <Property Name="VirtualMemorySize" Type="System.Int32">153366528</Property>
+    <Property Name="EnableRaisingEvents" Type="System.Boolean">False</Property>
+    <Property Name="StandardInput" Type="System.IO.StreamWriter" />
+    <Property Name="StandardOutput" Type="System.IO.StreamReader" />
+    <Property Name="StandardError" Type="System.IO.StreamReader" />
+    <Property Name="WorkingSet64" Type="System.Int64">19763200</Property>
+    <Property Name="WorkingSet" Type="System.Int32">19763200</Property>
+    <Property Name="SynchronizingObject" Type="System.ComponentModel.ISynchronizeInvoke" />
+    <Property Name="MainModule" Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (AcroTray.exe)</Property>
+    <Property Name="PrivilegedProcessorTime" Type="System.TimeSpan">00:00:00.0156250</Property>
+    <Property Name="TotalProcessorTime" Type="System.TimeSpan">00:00:00.0156250</Property>
+    <Property Name="UserProcessorTime" Type="System.TimeSpan">00:00:00</Property>
+    <Property Name="ProcessName" Type="System.String">acrotray</Property>
+    <Property Name="MainWindowHandle" Type="System.IntPtr">0</Property>
+    <Property Name="MainWindowTitle" Type="System.String">
+    </Property>
+    <Property Name="Responding" Type="System.Boolean">True</Property>
+    <Property Name="Site" Type="System.ComponentModel.ISite" />
+    <Property Name="Container" Type="System.ComponentModel.IContainer" />
+  </Object>
+  <Object Type="System.Diagnostics.Process">
+    <Property Name="Name" Type="System.String">AggregatorHost</Property>
+    <Property Name="SI" Type="System.Int32">0</Property>
+    <Property Name="Handles" Type="System.Int32">137</Property>
+    <Property Name="VM" Type="System.Int64">2203391352832</Property>
+    <Property Name="WS" Type="System.Int64">9248768</Property>
+    <Property Name="PM" Type="System.Int64">2486272</Property>
+    <Property Name="NPM" Type="System.Int64">9784</Property>
+    <Property Name="Path" Type="System.Object" />
+    <Property Name="CommandLine" Type="System.Object" />
+    <Property Name="Parent" Type="System.Object" />
+    <Property Name="Company" Type="System.Object" />
+    <Property Name="CPU" Type="System.Object" />
+    <Property Name="FileVersion" Type="System.Object" />
+    <Property Name="ProductVersion" Type="System.Object" />
+    <Property Name="Description" Type="System.Object" />
+    <Property Name="Product" Type="System.Object" />
+    <Property Name="__NounName" Type="System.String">Process</Property>
+    <Property Name="SafeHandle" Type="Microsoft.Win32.SafeHandles.SafeProcessHandle" />
+    <Property Name="Handle" Type="System.IntPtr" />
+    <Property Name="BasePriority" Type="System.Int32">8</Property>
+    <Property Name="ExitCode" Type="System.Int32" />
+    <Property Name="HasExited" Type="System.Boolean" />
+    <Property Name="StartTime" Type="System.DateTime" />
+    <Property Name="ExitTime" Type="System.DateTime" />
+    <Property Name="Id" Type="System.Int32">7956</Property>
+    <Property Name="MachineName" Type="System.String">.</Property>
+    <Property Name="MaxWorkingSet" Type="System.IntPtr" />
+    <Property Name="MinWorkingSet" Type="System.IntPtr" />
+    <Property Name="Modules" Type="System.Diagnostics.ProcessModuleCollection" />
+    <Property Name="NonpagedSystemMemorySize64" Type="System.Int64">9784</Property>
+    <Property Name="NonpagedSystemMemorySize" Type="System.Int32">9784</Property>
+    <Property Name="PagedMemorySize64" Type="System.Int64">2486272</Property>
+    <Property Name="PagedMemorySize" Type="System.Int32">2486272</Property>
+    <Property Name="PagedSystemMemorySize64" Type="System.Int64">80888</Property>
+    <Property Name="PagedSystemMemorySize" Type="System.Int32">80888</Property>
+    <Property Name="PeakPagedMemorySize64" Type="System.Int64">2883584</Property>
+    <Property Name="PeakPagedMemorySize" Type="System.Int32">2883584</Property>
+    <Property Name="PeakWorkingSet64" Type="System.Int64">10952704</Property>
+    <Property Name="PeakWorkingSet" Type="System.Int32">10952704</Property>
+    <Property Name="PeakVirtualMemorySize64" Type="System.Int64">2203407466496</Property>
+    <Property Name="PeakVirtualMemorySize" Type="System.Int32">89243648</Property>
+    <Property Name="PriorityBoostEnabled" Type="System.Boolean" />
+    <Property Name="PriorityClass" Type="System.Diagnostics.ProcessPriorityClass" />
+    <Property Name="PrivateMemorySize64" Type="System.Int64">2486272</Property>
+    <Property Name="PrivateMemorySize" Type="System.Int32">2486272</Property>
+    <Property Name="ProcessorAffinity" Type="System.IntPtr" />
+    <Property Name="SessionId" Type="System.Int32">0</Property>
+    <Property Name="StartInfo" Type="System.Diagnostics.ProcessStartInfo" />
+    <Property Name="Threads" Type="System.Diagnostics.ProcessThreadCollection">
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+    </Property>
+    <Property Name="HandleCount" Type="System.Int32">137</Property>
+    <Property Name="VirtualMemorySize64" Type="System.Int64">2203391352832</Property>
+    <Property Name="VirtualMemorySize" Type="System.Int32">73129984</Property>
+    <Property Name="EnableRaisingEvents" Type="System.Boolean">False</Property>
+    <Property Name="StandardInput" Type="System.IO.StreamWriter" />
+    <Property Name="StandardOutput" Type="System.IO.StreamReader" />
+    <Property Name="StandardError" Type="System.IO.StreamReader" />
+    <Property Name="WorkingSet64" Type="System.Int64">9248768</Property>
+    <Property Name="WorkingSet" Type="System.Int32">9248768</Property>
+    <Property Name="SynchronizingObject" Type="System.ComponentModel.ISynchronizeInvoke" />
+    <Property Name="MainModule" Type="System.Diagnostics.ProcessModule" />
+    <Property Name="PrivilegedProcessorTime" Type="System.TimeSpan" />
+    <Property Name="TotalProcessorTime" Type="System.TimeSpan" />
+    <Property Name="UserProcessorTime" Type="System.TimeSpan" />
+    <Property Name="ProcessName" Type="System.String">AggregatorHost</Property>
+    <Property Name="MainWindowHandle" Type="System.IntPtr">0</Property>
+    <Property Name="MainWindowTitle" Type="System.String">
+    </Property>
+    <Property Name="Responding" Type="System.Boolean">True</Property>
+    <Property Name="Site" Type="System.ComponentModel.ISite" />
+    <Property Name="Container" Type="System.ComponentModel.IContainer" />
+  </Object>
+  <Object Type="System.Diagnostics.Process">
+    <Property Name="Name" Type="System.String">ai</Property>
+    <Property Name="SI" Type="System.Int32">2</Property>
+    <Property Name="Handles" Type="System.Int32">145</Property>
+    <Property Name="VM" Type="System.Int64">2203486973952</Property>
+    <Property Name="WS" Type="System.Int64">22978560</Property>
+    <Property Name="PM" Type="System.Int64">11890688</Property>
+    <Property Name="NPM" Type="System.Int64">15288</Property>
+    <Property Name="Path" Type="System.String">C:\Program Files\Microsoft Office\root\vfs\ProgramFilesCommonX64\Microsoft Shared\OFFICE16\ai.exe</Property>
+    <Property Name="CommandLine" Type="System.String">"C:\Program Files\Microsoft Office\root\vfs\ProgramFilesCommonX64\Microsoft Shared\OFFICE16\ai.exe" "A12D3A34-E651-4308-88C9-ABBA42755D6D" "DEEE21BF-7311-4ABB-9E9B-D2D961EF9FC6" "4016" "C:\Program Files\Microsoft Office\root\Office16\OUTLOOK.EXE"</Property>
+    <Property Name="Parent" Type="System.Diagnostics.Process">System.Diagnostics.Process (OUTLOOK)</Property>
+    <Property Name="Company" Type="System.String">Microsoft Corporation</Property>
+    <Property Name="CPU" Type="System.Double">0.078125</Property>
+    <Property Name="FileVersion" Type="System.String">0.12.3.0</Property>
+    <Property Name="ProductVersion" Type="System.String">0.12.3.0</Property>
+    <Property Name="Description" Type="System.String">Artificial Intelligence (AI) Host for the Microsoft® Windows® Operating System and Platform x64.</Property>
+    <Property Name="Product" Type="System.String">Artificial Intelligence</Property>
+    <Property Name="__NounName" Type="System.String">Process</Property>
+    <Property Name="SafeHandle" Type="Microsoft.Win32.SafeHandles.SafeProcessHandle">Microsoft.Win32.SafeHandles.SafeProcessHandle</Property>
+    <Property Name="Handle" Type="System.IntPtr">3956</Property>
+    <Property Name="BasePriority" Type="System.Int32">8</Property>
+    <Property Name="ExitCode" Type="System.Int32" />
+    <Property Name="HasExited" Type="System.Boolean">False</Property>
+    <Property Name="StartTime" Type="System.DateTime">3/16/2023 2:39:45 PM</Property>
+    <Property Name="ExitTime" Type="System.DateTime" />
+    <Property Name="Id" Type="System.Int32">6272</Property>
+    <Property Name="MachineName" Type="System.String">.</Property>
+    <Property Name="MaxWorkingSet" Type="System.IntPtr">1413120</Property>
+    <Property Name="MinWorkingSet" Type="System.IntPtr">204800</Property>
+    <Property Name="Modules" Type="System.Diagnostics.ProcessModuleCollection">
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (ai.exe)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (ntdll.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (KERNEL32.DLL)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (KERNELBASE.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (AppVIsvSubsystems64.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (ADVAPI32.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (msvcrt.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (sechost.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (c2r64.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (ole32.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (RPCRT4.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (msvcp_win.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (USER32.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (ucrtbase.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (win32u.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (GDI32.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (SHELL32.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (gdi32full.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (combase.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (WS2_32.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (USERENV.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (IMM32.DLL)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (oleaut32.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (shcore.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (kernel.appcore.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (bcryptPrimitives.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (ai.dll)</Property>
+    </Property>
+    <Property Name="NonpagedSystemMemorySize64" Type="System.Int64">15288</Property>
+    <Property Name="NonpagedSystemMemorySize" Type="System.Int32">15288</Property>
+    <Property Name="PagedMemorySize64" Type="System.Int64">11890688</Property>
+    <Property Name="PagedMemorySize" Type="System.Int32">11890688</Property>
+    <Property Name="PagedSystemMemorySize64" Type="System.Int64">172248</Property>
+    <Property Name="PagedSystemMemorySize" Type="System.Int32">172248</Property>
+    <Property Name="PeakPagedMemorySize64" Type="System.Int64">12054528</Property>
+    <Property Name="PeakPagedMemorySize" Type="System.Int32">12054528</Property>
+    <Property Name="PeakWorkingSet64" Type="System.Int64">22999040</Property>
+    <Property Name="PeakWorkingSet" Type="System.Int32">22999040</Property>
+    <Property Name="PeakVirtualMemorySize64" Type="System.Int64">2203495362560</Property>
+    <Property Name="PeakVirtualMemorySize" Type="System.Int32">177139712</Property>
+    <Property Name="PriorityBoostEnabled" Type="System.Boolean">True</Property>
+    <Property Name="PriorityClass" Type="System.Diagnostics.ProcessPriorityClass">Normal</Property>
+    <Property Name="PrivateMemorySize64" Type="System.Int64">11890688</Property>
+    <Property Name="PrivateMemorySize" Type="System.Int32">11890688</Property>
+    <Property Name="ProcessorAffinity" Type="System.IntPtr">16777215</Property>
+    <Property Name="SessionId" Type="System.Int32">2</Property>
+    <Property Name="StartInfo" Type="System.Diagnostics.ProcessStartInfo" />
+    <Property Name="Threads" Type="System.Diagnostics.ProcessThreadCollection">
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+    </Property>
+    <Property Name="HandleCount" Type="System.Int32">145</Property>
+    <Property Name="VirtualMemorySize64" Type="System.Int64">2203486973952</Property>
+    <Property Name="VirtualMemorySize" Type="System.Int32">168751104</Property>
+    <Property Name="EnableRaisingEvents" Type="System.Boolean">False</Property>
+    <Property Name="StandardInput" Type="System.IO.StreamWriter" />
+    <Property Name="StandardOutput" Type="System.IO.StreamReader" />
+    <Property Name="StandardError" Type="System.IO.StreamReader" />
+    <Property Name="WorkingSet64" Type="System.Int64">22978560</Property>
+    <Property Name="WorkingSet" Type="System.Int32">22978560</Property>
+    <Property Name="SynchronizingObject" Type="System.ComponentModel.ISynchronizeInvoke" />
+    <Property Name="MainModule" Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (ai.exe)</Property>
+    <Property Name="PrivilegedProcessorTime" Type="System.TimeSpan">00:00:00</Property>
+    <Property Name="TotalProcessorTime" Type="System.TimeSpan">00:00:00.0781250</Property>
+    <Property Name="UserProcessorTime" Type="System.TimeSpan">00:00:00.0781250</Property>
+    <Property Name="ProcessName" Type="System.String">ai</Property>
+    <Property Name="MainWindowHandle" Type="System.IntPtr">0</Property>
+    <Property Name="MainWindowTitle" Type="System.String">
+    </Property>
+    <Property Name="Responding" Type="System.Boolean">True</Property>
+    <Property Name="Site" Type="System.ComponentModel.ISite" />
+    <Property Name="Container" Type="System.ComponentModel.IContainer" />
+  </Object>
+  <Object Type="System.Diagnostics.Process">
+    <Property Name="Name" Type="System.String">ApplicationFrameHost</Property>
+    <Property Name="SI" Type="System.Int32">2</Property>
+    <Property Name="Handles" Type="System.Int32">362</Property>
+    <Property Name="VM" Type="System.Int64">2203589058560</Property>
+    <Property Name="WS" Type="System.Int64">32313344</Property>
+    <Property Name="PM" Type="System.Int64">14450688</Property>
+    <Property Name="NPM" Type="System.Int64">22296</Property>
+    <Property Name="Path" Type="System.String">C:\WINDOWS\system32\ApplicationFrameHost.exe</Property>
+    <Property Name="CommandLine" Type="System.String">C:\WINDOWS\system32\ApplicationFrameHost.exe -Embedding</Property>
+    <Property Name="Parent" Type="System.Object" />
+    <Property Name="Company" Type="System.String">Microsoft Corporation</Property>
+    <Property Name="CPU" Type="System.Double">0.015625</Property>
+    <Property Name="FileVersion" Type="System.String">10.0.22621.608 (WinBuild.160101.0800)</Property>
+    <Property Name="ProductVersion" Type="System.String">10.0.22621.608</Property>
+    <Property Name="Description" Type="System.String">Application Frame Host</Property>
+    <Property Name="Product" Type="System.String">Microsoft® Windows® Operating System</Property>
+    <Property Name="__NounName" Type="System.String">Process</Property>
+    <Property Name="SafeHandle" Type="Microsoft.Win32.SafeHandles.SafeProcessHandle">Microsoft.Win32.SafeHandles.SafeProcessHandle</Property>
+    <Property Name="Handle" Type="System.IntPtr">4500</Property>
+    <Property Name="BasePriority" Type="System.Int32">8</Property>
+    <Property Name="ExitCode" Type="System.Int32" />
+    <Property Name="HasExited" Type="System.Boolean">False</Property>
+    <Property Name="StartTime" Type="System.DateTime">3/16/2023 2:42:46 PM</Property>
+    <Property Name="ExitTime" Type="System.DateTime" />
+    <Property Name="Id" Type="System.Int32">22472</Property>
+    <Property Name="MachineName" Type="System.String">.</Property>
+    <Property Name="MaxWorkingSet" Type="System.IntPtr">1413120</Property>
+    <Property Name="MinWorkingSet" Type="System.IntPtr">204800</Property>
+    <Property Name="Modules" Type="System.Diagnostics.ProcessModuleCollection">
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (ApplicationFrameHost.exe)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (ntdll.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (KERNEL32.DLL)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (KERNELBASE.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (ucrtbase.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (UxTheme.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (combase.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (RPCRT4.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (GDI32.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (win32u.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (gdi32full.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (msvcp_win.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (USER32.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (IMM32.DLL)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (kernel.appcore.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (msvcrt.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (bcryptPrimitives.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (dxgi.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (dxcore.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (clbcatq.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (ApplicationFrame.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (SHCORE.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (sechost.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (OneCoreUAPCommonProxyStub.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (MSCTF.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (d3d11.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (D3D10Warp.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (directxdatabasehelper.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (dcomp.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (CoreMessaging.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (advapi32.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (CRYPTBASE.DLL)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (TWINAPI.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (twinapi.appcore.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (dwmapi.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (UIAutomationCore.DLL)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (OLEAUT32.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (PROPSYS.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (d2d1.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (SHELL32.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (windows.staterepositorycore.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (bcp47mrm.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (profapi.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (StartTileData.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (IPHLPAPI.DLL)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (windows.storage.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (wintypes.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (shlwapi.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (USERENV.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (SspiCli.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (ole32.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (CFGMGR32.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (StructuredQuery.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (windows.staterepositoryclient.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (Windows.FileExplorer.Common.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (cldapi.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (edputil.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (Windows.Graphics.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (bcrypt.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (windowscodecs.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (PhotoMetadataHandler.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (RTMediaFrame.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (Windows.UI.Xaml.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (powrprof.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (UMPDC.dll)</Property>
+      <Property Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (TextShaping.dll)</Property>
+    </Property>
+    <Property Name="NonpagedSystemMemorySize64" Type="System.Int64">22296</Property>
+    <Property Name="NonpagedSystemMemorySize" Type="System.Int32">22296</Property>
+    <Property Name="PagedMemorySize64" Type="System.Int64">14450688</Property>
+    <Property Name="PagedMemorySize" Type="System.Int32">14450688</Property>
+    <Property Name="PagedSystemMemorySize64" Type="System.Int64">386544</Property>
+    <Property Name="PagedSystemMemorySize" Type="System.Int32">386544</Property>
+    <Property Name="PeakPagedMemorySize64" Type="System.Int64">16146432</Property>
+    <Property Name="PeakPagedMemorySize" Type="System.Int32">16146432</Property>
+    <Property Name="PeakWorkingSet64" Type="System.Int64">34562048</Property>
+    <Property Name="PeakWorkingSet" Type="System.Int32">34562048</Property>
+    <Property Name="PeakVirtualMemorySize64" Type="System.Int64">2203643092992</Property>
+    <Property Name="PeakVirtualMemorySize" Type="System.Int32">324870144</Property>
+    <Property Name="PriorityBoostEnabled" Type="System.Boolean">True</Property>
+    <Property Name="PriorityClass" Type="System.Diagnostics.ProcessPriorityClass">Normal</Property>
+    <Property Name="PrivateMemorySize64" Type="System.Int64">14450688</Property>
+    <Property Name="PrivateMemorySize" Type="System.Int32">14450688</Property>
+    <Property Name="ProcessorAffinity" Type="System.IntPtr">16777215</Property>
+    <Property Name="SessionId" Type="System.Int32">2</Property>
+    <Property Name="StartInfo" Type="System.Diagnostics.ProcessStartInfo" />
+    <Property Name="Threads" Type="System.Diagnostics.ProcessThreadCollection">
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+    </Property>
+    <Property Name="HandleCount" Type="System.Int32">362</Property>
+    <Property Name="VirtualMemorySize64" Type="System.Int64">2203589058560</Property>
+    <Property Name="VirtualMemorySize" Type="System.Int32">270835712</Property>
+    <Property Name="EnableRaisingEvents" Type="System.Boolean">False</Property>
+    <Property Name="StandardInput" Type="System.IO.StreamWriter" />
+    <Property Name="StandardOutput" Type="System.IO.StreamReader" />
+    <Property Name="StandardError" Type="System.IO.StreamReader" />
+    <Property Name="WorkingSet64" Type="System.Int64">32313344</Property>
+    <Property Name="WorkingSet" Type="System.Int32">32313344</Property>
+    <Property Name="SynchronizingObject" Type="System.ComponentModel.ISynchronizeInvoke" />
+    <Property Name="MainModule" Type="System.Diagnostics.ProcessModule">System.Diagnostics.ProcessModule (ApplicationFrameHost.exe)</Property>
+    <Property Name="PrivilegedProcessorTime" Type="System.TimeSpan">00:00:00.0156250</Property>
+    <Property Name="TotalProcessorTime" Type="System.TimeSpan">00:00:00.0156250</Property>
+    <Property Name="UserProcessorTime" Type="System.TimeSpan">00:00:00</Property>
+    <Property Name="ProcessName" Type="System.String">ApplicationFrameHost</Property>
+    <Property Name="MainWindowHandle" Type="System.IntPtr">852526</Property>
+    <Property Name="MainWindowTitle" Type="System.String">Settings</Property>
+    <Property Name="Responding" Type="System.Boolean">True</Property>
+    <Property Name="Site" Type="System.ComponentModel.ISite" />
+    <Property Name="Container" Type="System.ComponentModel.IContainer" />
+  </Object>
+  <Object Type="System.Diagnostics.Process">
+    <Property Name="Name" Type="System.String">armsvc</Property>
+    <Property Name="SI" Type="System.Int32">0</Property>
+    <Property Name="Handles" Type="System.Int32">135</Property>
+    <Property Name="VM" Type="System.Int64">72282112</Property>
+    <Property Name="WS" Type="System.Int64">5566464</Property>
+    <Property Name="PM" Type="System.Int64">1724416</Property>
+    <Property Name="NPM" Type="System.Int64">9640</Property>
+    <Property Name="Path" Type="System.Object" />
+    <Property Name="CommandLine" Type="System.Object" />
+    <Property Name="Parent" Type="System.Object" />
+    <Property Name="Company" Type="System.Object" />
+    <Property Name="CPU" Type="System.Object" />
+    <Property Name="FileVersion" Type="System.Object" />
+    <Property Name="ProductVersion" Type="System.Object" />
+    <Property Name="Description" Type="System.Object" />
+    <Property Name="Product" Type="System.Object" />
+    <Property Name="__NounName" Type="System.String">Process</Property>
+    <Property Name="SafeHandle" Type="Microsoft.Win32.SafeHandles.SafeProcessHandle" />
+    <Property Name="Handle" Type="System.IntPtr" />
+    <Property Name="BasePriority" Type="System.Int32">8</Property>
+    <Property Name="ExitCode" Type="System.Int32" />
+    <Property Name="HasExited" Type="System.Boolean" />
+    <Property Name="StartTime" Type="System.DateTime" />
+    <Property Name="ExitTime" Type="System.DateTime" />
+    <Property Name="Id" Type="System.Int32">5696</Property>
+    <Property Name="MachineName" Type="System.String">.</Property>
+    <Property Name="MaxWorkingSet" Type="System.IntPtr" />
+    <Property Name="MinWorkingSet" Type="System.IntPtr" />
+    <Property Name="Modules" Type="System.Diagnostics.ProcessModuleCollection" />
+    <Property Name="NonpagedSystemMemorySize64" Type="System.Int64">9640</Property>
+    <Property Name="NonpagedSystemMemorySize" Type="System.Int32">9640</Property>
+    <Property Name="PagedMemorySize64" Type="System.Int64">1724416</Property>
+    <Property Name="PagedMemorySize" Type="System.Int32">1724416</Property>
+    <Property Name="PagedSystemMemorySize64" Type="System.Int64">78104</Property>
+    <Property Name="PagedSystemMemorySize" Type="System.Int32">78104</Property>
+    <Property Name="PeakPagedMemorySize64" Type="System.Int64">2101248</Property>
+    <Property Name="PeakPagedMemorySize" Type="System.Int32">2101248</Property>
+    <Property Name="PeakWorkingSet64" Type="System.Int64">7536640</Property>
+    <Property Name="PeakWorkingSet" Type="System.Int32">7536640</Property>
+    <Property Name="PeakVirtualMemorySize64" Type="System.Int64">78835712</Property>
+    <Property Name="PeakVirtualMemorySize" Type="System.Int32">78835712</Property>
+    <Property Name="PriorityBoostEnabled" Type="System.Boolean" />
+    <Property Name="PriorityClass" Type="System.Diagnostics.ProcessPriorityClass" />
+    <Property Name="PrivateMemorySize64" Type="System.Int64">1724416</Property>
+    <Property Name="PrivateMemorySize" Type="System.Int32">1724416</Property>
+    <Property Name="ProcessorAffinity" Type="System.IntPtr" />
+    <Property Name="SessionId" Type="System.Int32">0</Property>
+    <Property Name="StartInfo" Type="System.Diagnostics.ProcessStartInfo" />
+    <Property Name="Threads" Type="System.Diagnostics.ProcessThreadCollection">
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+    </Property>
+    <Property Name="HandleCount" Type="System.Int32">135</Property>
+    <Property Name="VirtualMemorySize64" Type="System.Int64">72282112</Property>
+    <Property Name="VirtualMemorySize" Type="System.Int32">72282112</Property>
+    <Property Name="EnableRaisingEvents" Type="System.Boolean">False</Property>
+    <Property Name="StandardInput" Type="System.IO.StreamWriter" />
+    <Property Name="StandardOutput" Type="System.IO.StreamReader" />
+    <Property Name="StandardError" Type="System.IO.StreamReader" />
+    <Property Name="WorkingSet64" Type="System.Int64">5566464</Property>
+    <Property Name="WorkingSet" Type="System.Int32">5566464</Property>
+    <Property Name="SynchronizingObject" Type="System.ComponentModel.ISynchronizeInvoke" />
+    <Property Name="MainModule" Type="System.Diagnostics.ProcessModule" />
+    <Property Name="PrivilegedProcessorTime" Type="System.TimeSpan" />
+    <Property Name="TotalProcessorTime" Type="System.TimeSpan" />
+    <Property Name="UserProcessorTime" Type="System.TimeSpan" />
+    <Property Name="ProcessName" Type="System.String">armsvc</Property>
+    <Property Name="MainWindowHandle" Type="System.IntPtr">0</Property>
+    <Property Name="MainWindowTitle" Type="System.String">
+    </Property>
+    <Property Name="Responding" Type="System.Boolean">True</Property>
+    <Property Name="Site" Type="System.ComponentModel.ISite" />
+    <Property Name="Container" Type="System.ComponentModel.IContainer" />
+  </Object>
+  <Object Type="System.Diagnostics.Process">
+    <Property Name="Name" Type="System.String">audiodg</Property>
+    <Property Name="SI" Type="System.Int32">0</Property>
+    <Property Name="Handles" Type="System.Int32">223</Property>
+    <Property Name="VM" Type="System.Int64">2203440267264</Property>
+    <Property Name="WS" Type="System.Int64">29470720</Property>
+    <Property Name="PM" Type="System.Int64">21938176</Property>
+    <Property Name="NPM" Type="System.Int64">12768</Property>
+    <Property Name="Path" Type="System.Object" />
+    <Property Name="CommandLine" Type="System.Object" />
+    <Property Name="Parent" Type="System.Object" />
+    <Property Name="Company" Type="System.Object" />
+    <Property Name="CPU" Type="System.Double">0.96875</Property>
+    <Property Name="FileVersion" Type="System.Object" />
+    <Property Name="ProductVersion" Type="System.Object" />
+    <Property Name="Description" Type="System.Object" />
+    <Property Name="Product" Type="System.Object" />
+    <Property Name="__NounName" Type="System.String">Process</Property>
+    <Property Name="SafeHandle" Type="Microsoft.Win32.SafeHandles.SafeProcessHandle" />
+    <Property Name="Handle" Type="System.IntPtr" />
+    <Property Name="BasePriority" Type="System.Int32">8</Property>
+    <Property Name="ExitCode" Type="System.Int32" />
+    <Property Name="HasExited" Type="System.Boolean" />
+    <Property Name="StartTime" Type="System.DateTime">3/16/2023 4:25:27 PM</Property>
+    <Property Name="ExitTime" Type="System.DateTime" />
+    <Property Name="Id" Type="System.Int32">12924</Property>
+    <Property Name="MachineName" Type="System.String">.</Property>
+    <Property Name="MaxWorkingSet" Type="System.IntPtr" />
+    <Property Name="MinWorkingSet" Type="System.IntPtr" />
+    <Property Name="Modules" Type="System.Diagnostics.ProcessModuleCollection" />
+    <Property Name="NonpagedSystemMemorySize64" Type="System.Int64">12768</Property>
+    <Property Name="NonpagedSystemMemorySize" Type="System.Int32">12768</Property>
+    <Property Name="PagedMemorySize64" Type="System.Int64">21938176</Property>
+    <Property Name="PagedMemorySize" Type="System.Int32">21938176</Property>
+    <Property Name="PagedSystemMemorySize64" Type="System.Int64">112280</Property>
+    <Property Name="PagedSystemMemorySize" Type="System.Int32">112280</Property>
+    <Property Name="PeakPagedMemorySize64" Type="System.Int64">24023040</Property>
+    <Property Name="PeakPagedMemorySize" Type="System.Int32">24023040</Property>
+    <Property Name="PeakWorkingSet64" Type="System.Int64">31559680</Property>
+    <Property Name="PeakWorkingSet" Type="System.Int32">31559680</Property>
+    <Property Name="PeakVirtualMemorySize64" Type="System.Int64">2203442814976</Property>
+    <Property Name="PeakVirtualMemorySize" Type="System.Int32">124592128</Property>
+    <Property Name="PriorityBoostEnabled" Type="System.Boolean" />
+    <Property Name="PriorityClass" Type="System.Diagnostics.ProcessPriorityClass" />
+    <Property Name="PrivateMemorySize64" Type="System.Int64">21938176</Property>
+    <Property Name="PrivateMemorySize" Type="System.Int32">21938176</Property>
+    <Property Name="ProcessorAffinity" Type="System.IntPtr" />
+    <Property Name="SessionId" Type="System.Int32">0</Property>
+    <Property Name="StartInfo" Type="System.Diagnostics.ProcessStartInfo" />
+    <Property Name="Threads" Type="System.Diagnostics.ProcessThreadCollection">
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+      <Property Type="System.Diagnostics.ProcessThread">System.Diagnostics.ProcessThread</Property>
+    </Property>
+    <Property Name="HandleCount" Type="System.Int32">223</Property>
+    <Property Name="VirtualMemorySize64" Type="System.Int64">2203440267264</Property>
+    <Property Name="VirtualMemorySize" Type="System.Int32">122044416</Property>
+    <Property Name="EnableRaisingEvents" Type="System.Boolean">False</Property>
+    <Property Name="StandardInput" Type="System.IO.StreamWriter" />
+    <Property Name="StandardOutput" Type="System.IO.StreamReader" />
+    <Property Name="StandardError" Type="System.IO.StreamReader" />
+    <Property Name="WorkingSet64" Type="System.Int64">29470720</Property>
+    <Property Name="WorkingSet" Type="System.Int32">29470720</Property>
+    <Property Name="SynchronizingObject" Type="System.ComponentModel.ISynchronizeInvoke" />
+    <Property Name="MainModule" Type="System.Diagnostics.ProcessModule" />
+    <Property Name="PrivilegedProcessorTime" Type="System.TimeSpan">00:00:00.3906250</Property>
+    <Property Name="TotalProcessorTime" Type="System.TimeSpan">00:00:00.9687500</Property>
+    <Property Name="UserProcessorTime" Type="System.TimeSpan">00:00:00.5781250</Property>
+    <Property Name="ProcessName" Type="System.String">audiodg</Property>
+    <Property Name="MainWindowHandle" Type="System.IntPtr">0</Property>
+    <Property Name="MainWindowTitle" Type="System.String">
+    </Property>
+    <Property Name="Responding" Type="System.Boolean">True</Property>
+    <Property Name="Site" Type="System.ComponentModel.ISite" />
+    <Property Name="Container" Type="System.ComponentModel.IContainer" />
+  </Object>
+</Objects>
