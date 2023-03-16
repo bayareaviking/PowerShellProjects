@@ -1,0 +1,7 @@
+employeeId,firstName,lastName,hiredate,department
+1001,Tony,Stark,10/31/1965,Engineering
+1002,Steven,Rogers,7/4/1945,Security
+1003,Bruce,Banner,9/10/1984,Research
+1004,Thor,Odinsson,01/01/0001,Sales
+1005,Natasha,Rominov,5/11/2009,Administration
+1006,Peter,Parker,8/24/2016,IT
