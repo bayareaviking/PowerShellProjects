@@ -1,0 +1,44 @@
+[
+  {
+    "employeeId": "1001",
+    "firstName": "Tony",
+    "lastName": "Stark",
+    "hiredate": "10/31/1965",
+    "department": "Engineering"
+  },
+  {
+    "employeeId": "1002",
+    "firstName": "Steven",
+    "lastName": "Rogers",
+    "hiredate": "7/4/1945",
+    "department": "Security"
+  },
+  {
+    "employeeId": "1003",
+    "firstName": "Bruce",
+    "lastName": "Banner",
+    "hiredate": "9/10/1984",
+    "department": "Research"
+  },
+  {
+    "employeeId": "1004",
+    "firstName": "Thor",
+    "lastName": "Odinsson",
+    "hiredate": "01/01/0001",
+    "department": "Sales"
+  },
+  {
+    "employeeId": "1005",
+    "firstName": "Natasha",
+    "lastName": "Rominov",
+    "hiredate": "5/11/2009",
+    "department": "Administration"
+  },
+  {
+    "employeeId": "1006",
+    "firstName": "Peter",
+    "lastName": "Parker",
+    "hiredate": "8/24/2016",
+    "department": "IT"
+  }
+]

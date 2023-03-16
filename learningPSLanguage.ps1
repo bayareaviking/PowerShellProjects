@@ -11,3 +11,5 @@ $sb2 = {
 Invoke-Command -ScriptBlock $sb2 -ArgumentList System, 2 | Format-List ProviderName, ID, LevelDisplayName, Message 
 
 # Objects
+$d = '12/31/2022'
+$d - $(Get-Date)
