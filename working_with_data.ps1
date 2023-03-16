@@ -25,3 +25,9 @@ $xmlData | Select-Object -Property Name,WorkingSet #>
 # $xmlObject
 
 ### JSON files
+Get-Date | Select-Object -Property * | ConvertTo-Json -AsArray
+
+Get-Process -Name "w*" | ConvertTo-Json -AsArray | Tee-Object ".\procs.json"
+$processData = Get-Content -Path ".\procs.json" | ConvertFrom-Json
+$processData | Get-Member
+$processData[0]
