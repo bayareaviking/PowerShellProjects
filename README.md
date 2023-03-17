@@ -1,5 +1,5 @@
 # PowerShellTraining
-## Going through and re-teach myself PowerShell 7
+## Going through and re-teaching myself PowerShell
 
 **Courses**
 - [PowerShell 7 Fundamentals](https://app.pluralsight.com/paths/skills/powershell-7-fundamentals)
