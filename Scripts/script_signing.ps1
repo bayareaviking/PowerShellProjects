@@ -1,0 +1,51 @@
+
+# Path to script
+$scriptPath = "C:\Scripts\PowerShellTraining\Scripts\getting_data_from_internet.ps1"
+
+#G Generate a new self-signed cert
+New-SelfSignedCertificate -DnsName 'script.company.com' -CertStoreLocation Cert:\CurrentUser\My -Type CodeSigningCert -Subject  "PowerShell Signing Certificate"
+
+# Retrieve the cert from the local store
+$certificate = (Get-ChildItem Cert:\CurrentUser\My -CodeSigningCert)[0]
+
+# Use the cert for the script
+Set-AuthenticodeSignature -FilePath $scriptPath -Certificate $certificate -Verbose
+
+# See the cert-signed script
+Get-AuthenticodeSignature -FilePath $scriptPath | Format-Table -AutoSize
+
+
+# SIG # Begin signature block
+# MIIF3gYJKoZIhvcNAQcCoIIFzzCCBcsCAQExDzANBglghkgBZQMEAgEFADB5Bgor
+# BgEEAYI3AgEEoGswaTA0BgorBgEEAYI3AgEeMCYCAwEAAAQQH8w7YFlLCE63JNLG
+# KX7zUQIBAAIBAAIBAAIBAAIBADAxMA0GCWCGSAFlAwQCAQUABCBRhO8y1YiAMnv3
+# c+PWpqS093TqyBz8bdCTtBFhAaecH6CCA0UwggNBMIICKaADAgECAhASBjJ1SwPt
+# vE+hOi6j5r/kMA0GCSqGSIb3DQEBCwUAMCkxJzAlBgNVBAMMHlBvd2VyU2hlbGwg
+# U2lnbmluZyBDZXJ0aWZpY2F0ZTAeFw0yMzAzMjEwMjUyMzRaFw0yNDAzMjEwMzEy
+# MzRaMCkxJzAlBgNVBAMMHlBvd2VyU2hlbGwgU2lnbmluZyBDZXJ0aWZpY2F0ZTCC
+# ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANCh8asiWxXtoJ1x9Piy0gMH
+# G58a4hldrclR7ft4uQGWvylt7VxOyrJ78KYJxda8RDFv73xo91/NOcvSWwI0CHF2
+# eV8e3wLfrDoXFGUkjlkUMCtEzUhztvqtLdTJH2YBiyYmgu5JU5uA1YO7KsFdA04y
+# bF5LAv1Z3kUbMbCtFqEPnDYNwQxwBKNhIJp01SqvUSKTADMczlcwGj5sLxzDAa/n
+# fOE7iGBcWM5Fv2j9E93+WNbU/vBUVqYuyrUbPdgsZaTEhxKaTrTFHvxg2aIVb06P
+# v/W1LuJ7hJFRRzpYUHHBl7maIxxMdZ10fTqDUjIMeSb6HXiGXY2EhOWjdiUcUSkC
+# AwEAAaNlMGMwDgYDVR0PAQH/BAQDAgeAMBMGA1UdJQQMMAoGCCsGAQUFBwMDMB0G
+# A1UdEQQWMBSCEnNjcmlwdC5jb21wYW55LmNvbTAdBgNVHQ4EFgQU4LbM8RwE7isV
+# Svs8aUoHD2OmgBowDQYJKoZIhvcNAQELBQADggEBAKWs6qIIBXyDotduBYpBpWt1
+# XXRixt6tkGsD2y+ObIi/Vi6o+NDQy4aXi/V5zWRFsV/sI2fb+lHWWswX13OEFzLc
+# tOMHZgVFFGVrDu59bKwDfuQfpCVJ506YHbxyRHXSrouA3yp/ovS9WZUqZVXuVWD5
+# Mf507eaWWrLV0nRM6UJRoKYzpTWVICdqlxzVKf/G7cdxFO2x1KGcUEiUIfs3+EbO
+# 5CRA9YERzXyukJTgad7hglpI+C8eMdNH6NonYkOADqcPEIKZSWoNhLJ0pt9wJxfO
+# UWYG2NqkvNe2NuEqGfYLh5wVYJvADAodSJHWkDYZSTczqGRLdIXRgyKjRmlUGS8x
+# ggHvMIIB6wIBATA9MCkxJzAlBgNVBAMMHlBvd2VyU2hlbGwgU2lnbmluZyBDZXJ0
+# aWZpY2F0ZQIQEgYydUsD7bxPoTouo+a/5DANBglghkgBZQMEAgEFAKCBhDAYBgor
+# BgEEAYI3AgEMMQowCKACgAChAoAAMBkGCSqGSIb3DQEJAzEMBgorBgEEAYI3AgEE
+# MBwGCisGAQQBgjcCAQsxDjAMBgorBgEEAYI3AgEVMC8GCSqGSIb3DQEJBDEiBCCg
+# 9sgkzIAFSCyfMku+Y2SKn0f37xEXulaQdFyErlS2gDANBgkqhkiG9w0BAQEFAASC
+# AQA7MPrOdRu4EBMgZkQJ/46kGvgn9I7MKgN2p2pcnUMlRFQ5htoZl2vURMlpV6M/
+# rXQeXdzR66w9T8C0dl9ChURzn3ipuLnS8yGpjTiLrKzewzHXLklVz6owu4crYTfI
+# hlphir17kJoZZpT/F9D83miXj4+bT6oUBagqcjHM5xFhvX/0ho0/4y0SJ4pSTX8n
+# P8VK/5GrComaDRcXD3NthTxL6+zTs9Ipony48MwhVqE8UhQPAmPoztdU6yPZFFpC
+# hx90BCCR4hw1+25wG4qUseAVWG5u9r/zx7PsPxC2+ZZtSB8tb3QA/bAOUWCyQHfq
+# KZGJKQrMOk+DKt853Elslp3i
+# SIG # End signature block
