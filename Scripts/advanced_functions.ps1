@@ -1,5 +1,5 @@
 
-[CmdletBinding()]
+[CmdletBinding(SupportsShouldProcess, ConfirmImpact = 'High')]
 param (
     [Parameter(Mandatory, Position = 0, ValueFromPipeline)]
     [ValidateScript({ 
