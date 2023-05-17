@@ -1,11 +1,11 @@
 ﻿$host.ui.RawUI.WindowTitle = 'Pester Course Module 2'
+$naPath = Split-Path -Parent $MyInvocation.MyCommand.Path
 
-$naPath = 'C:\PS\Pester-course\demo\module-02\Podcast-NoAgenda'
+#$naPath = 'C:\PS\Pester-course\demo\module-02\Podcast-NoAgenda'
 Set-Location $naPath
 
 Import-Module Pester
 
-Invoke-Pester "$naPath\Podcast-NoAgenda.Module.Ver09.Tests.ps1"
 
 Invoke-Pester "$naPath\function-Get-PodcastData.Tests.ps1"
 

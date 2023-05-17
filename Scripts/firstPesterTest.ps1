@@ -10,13 +10,7 @@ Describe 'Test Name' { # First curly brace must be on the same line as the Descr
     }
 }
 #>
+$here = Split-Path -Parent $MyInvocation.MyCommand.Path
+$file = "C:\Users\Marcus\OneDrive\Pictures\Reaction Stills\*.jpg"
 
-Describe 'Testing for Reaction Memes in OneDrive Folder' {
-    It "has a reaction meme in OneDrive" {
-        "C:\Users\Marcus\OneDrive\Pictures\Reaction Stills\AGratefulNationSalutesYou.jpg" | Should -Exist
-    }
-
-    It "Has a .jpg file extension" {
-       ((("C:\Users\Marcus\OneDrive\Pictures\Reaction Stills\AGratefulNationSalutesYou.jpg").Split(".")[1]) -eq "jpg") | Should -Be $true
-    }
-}
+ Invoke-Pester -Path $here\pesterTraining.Tests.ps1
