@@ -1,7 +1,8 @@
 ﻿# Set title for project
 $host.ui.RawUI.WindowTitle = 'Pester Course Module 3'
 
-$naPath = 'C:\PS\Pester-course\demo\module-03\Podcast-NoAgenda'
+#$naPath = 'C:\PS\Pester-course\demo\module-03\Podcast-NoAgenda'
+$naPath = Split-Path -Parent $MyInvocation.MyCommand.Path
 Set-Location $naPath
 
 Import-Module Pester
