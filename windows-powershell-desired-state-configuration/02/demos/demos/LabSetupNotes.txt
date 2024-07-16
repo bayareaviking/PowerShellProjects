@@ -1,0 +1,2 @@
+For up-to-date and detailed setup notes regarding the lab settings I'm using in this course, 
+please read the document at http://bit.ly/PSLabSetup.

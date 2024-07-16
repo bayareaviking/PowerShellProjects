@@ -1,0 +1,1 @@
+copy-item -path .\CompanyRSAT -Container -Recurse -Destination 'C:\Program Files\WindowsPowerShell\Modules\' -force

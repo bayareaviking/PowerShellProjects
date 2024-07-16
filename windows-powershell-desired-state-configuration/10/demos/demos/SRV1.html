@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<Title>SRV1 DSC Configuration Report</Title>
+<style>
+body {
+  background-color:#FFFFFF;
+  font-family:Tahoma;
+  font-size:11pt;
+}
+td {
+  border:0px solid black;
+    border-collapse:collapse;
+    padding: 10px;
+    }
+th {
+  color:white;
+  border:1px solid black;
+  border-collapse:collapse;
+  background-color:black;
+  padding: 5px;
+}
+tr:nth-child(odd) {background-color: lightgray}
+table { margin-left:35px; }
+.alert { color:red;}
+.ok { color:green;}
+.property {font-weight:bold;}
+</style>
+</head><body>
+<H1>DSC Configuration Report</H1>
+<H2 class='alert'>
+SRV1.COMPANY.PRI
+</H2>
+<HR>
+<H3>Status Summary</H3>
+<table><tr><td class="property">Status</td><td>Success</td></tr><tr><td class="property">LastOperation</td><td>11/22/2021 11:57:21 AM</td></tr><tr><td class="property">Type</td><td>Consistency</td></tr><tr><td class="property">RebootRequested</td><td>False</td></tr><tr><td class="property">ResourcesInDesiredState</td><td>9</td></tr><tr><td class="property">ResourcesNotInDesiredState</td><td>0</td></tr></table>
+<H3>Local Configuration Manager</H3>
+<table><tr><td class="property">IPAddress</td><td>192.168.3.50</td></tr><tr><td class="property">Mode</td><td>PUSH</td></tr><tr><td class="property">ConfigurationMode</td><td>ApplyAndAutoCorrect</td></tr><tr><td class="property">ConfigurationFrequency</td><td>15</td></tr><tr><td class="property">RefreshFrequency</td><td>30</td></tr><tr><td class="property">Author</td><td>MSFT_DSCLocalConfigurationManager</td></tr><tr><td class="property">Name</td><td>MSFT_DSCLocalConfigurationManager</td></tr><tr><td class="property">Version</td><td>2.0.0</td></tr><tr><td class="property">GenerationDate</td><td>11/22/2021 10</td></tr><tr><td class="property">GenerationHost</td><td>WIN10</td></tr></table>
+<H3>[Service]RemoteRegistry</H3>
+<table><tr><td class="property">BuiltInAccount</td><td>LocalService</td></tr><tr><td class="property">Dependencies</td><td>RPCSS</td></tr><tr><td class="property">Description</td><td>Enables remote users to modify registry settings on this computer. If this service is stopped, the registry can be modified only by users on this computer. If this service is disabled, any services that explicitly depend on it will fail to start.</td></tr><tr><td class="property">DisplayName</td><td>Remote Registry</td></tr><tr><td class="property">Name</td><td>RemoteRegistry</td></tr><tr><td class="property">Path</td><td>C:\Windows\system32\svchost.exe -k localService</td></tr><tr><td class="property">StartupType</td><td>Automatic</td></tr><tr><td class="property">State</td><td>Running</td></tr></table>
+<H3>[Service]Defender</H3>
+<table><tr><td class="property">BuiltInAccount</td><td>LocalSystem</td></tr><tr><td class="property">Dependencies</td><td>RpcSs</td></tr><tr><td class="property">Description</td><td>Helps protect users from malware and other potentially unwanted software</td></tr><tr><td class="property">DisplayName</td><td>Windows Defender Service</td></tr><tr><td class="property">Name</td><td>WinDefend</td></tr><tr><td class="property">Path</td><td>"C:\Program Files\Windows Defender\MsMpEng.exe"</td></tr><tr><td class="property">StartupType</td><td>Automatic</td></tr><tr><td class="property">State</td><td>Running</td></tr></table>
+<H3 class='alert'>[Service]Bits</H3>
+<table><tr><td class="property">BuiltInAccount</td><td>LocalSystem</td></tr><tr><td class="property">Dependencies</td><td>RpcSs</td></tr><tr><td class="property">Description</td><td>Transfers files in the background using idle network bandwidth. If the service is disabled, then any applications that depend on BITS, such as Windows Update or MSN Explorer, will be unable to automatically download programs and other information.</td></tr><tr><td class="property">DisplayName</td><td>Background Intelligent Transfer Service</td></tr><tr><td class="property">Name</td><td>Bits</td></tr><tr><td class="property">Path</td><td>C:\Windows\System32\svchost.exe -k netsvcs</td></tr><tr><td class="property">StartupType</td><td>Manual</td></tr><tr><td class="property">State</td><td>Stopped</td></tr></table>
+<H3>[Service]Spooler</H3>
+<table><tr><td class="property">BuiltInAccount</td><td>LocalSystem</td></tr><tr><td class="property">Dependencies</td><td>RPCSS,http</td></tr><tr><td class="property">Description</td><td>This service spools print jobs and handles interaction with the printer.  If you turn off this service, you won?t be able to print or see your printers.</td></tr><tr><td class="property">DisplayName</td><td>Print Spooler</td></tr><tr><td class="property">Name</td><td>Spooler</td></tr><tr><td class="property">Path</td><td>C:\Windows\System32\spoolsv.exe</td></tr><tr><td class="property">StartupType</td><td>Disabled</td></tr><tr><td class="property">State</td><td>Stopped</td></tr></table>
+<H3>[Service]SharedAccess</H3>
+<table><tr><td class="property">BuiltInAccount</td><td>LocalSystem</td></tr><tr><td class="property">Dependencies</td><td>BFE</td></tr><tr><td class="property">Description</td><td>Provides network address translation, addressing, name resolution and/or intrusion prevention services for a home or small office network.</td></tr><tr><td class="property">DisplayName</td><td>Internet Connection Sharing (ICS)</td></tr><tr><td class="property">Name</td><td>SharedAccess</td></tr><tr><td class="property">Path</td><td>C:\Windows\System32\svchost.exe -k netsvcs</td></tr><tr><td class="property">StartupType</td><td>Disabled</td></tr><tr><td class="property">State</td><td>Stopped</td></tr></table>
+<H3>[WindowsFeature]InternalDB</H3>
+<table> <colgroup><col/><col/><col/></colgroup> <tr><th>DisplayName</th><th>Ensure</th><th>Name</th></tr> <tr><td>Windows Internal Database</td><td>Present</td><td>Windows-Internal-Database</td></tr> </table>
+<H3>[WindowsFeature]Backup</H3>
+<table> <colgroup><col/><col/><col/></colgroup> <tr><th>DisplayName</th><th>Ensure</th><th>Name</th></tr> <tr><td>Windows Server Backup</td><td>Present</td><td>Windows-Server-Backup</td></tr> </table>
+<H3>[WindowsFeature]PowerShellv2</H3>
+<table> <colgroup><col/><col/><col/></colgroup> <tr><th>DisplayName</th><th>Ensure</th><th>Name</th></tr> <tr><td>Windows PowerShell 2.0 Engine</td><td>Absent</td><td>PowerShell-V2</td></tr> </table>
+<H3>[WindowsFeature]SNMP</H3>
+<table> <colgroup><col/><col/><col/><col/></colgroup> <tr><th>DisplayName</th><th>Ensure</th><th>IncludeAllSubFeature</th><th>Name</th></tr> <tr><td>SNMP Service</td><td>Present</td><td>True</td><td>SNMP-Service</td></tr> </table>
+<hr/><h5>
+<i>
+Items in red indicate non-compliant resources.<p/>
+Report run: 11/22/2021 12:04:59 US Mountain Standard Time
+</i></h5>
+<table>
+</table>
+</body></html>

@@ -1,0 +1,5 @@
+"Feature","Ensure","IncludeAll"
+"PowerShell-V2","absent",0
+"Telnet-Client","absent",0
+"Windows-Server-Backup","present",1
+"NLB","present",1
